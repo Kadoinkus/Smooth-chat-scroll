@@ -1,14 +1,104 @@
+.launcher {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    background: #007932;
+    color: #fff;
+    border: none;
+    padding: .7rem 1.3rem;
+    border-radius: 9999px;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .25)
+}
 
-.launcher{position:fixed;bottom:1rem;right:1rem;background:#007932;color:#fff;border:none;padding:.7rem 1.3rem;border-radius:9999px;font-size:1rem;cursor:pointer;box-shadow:0 4px 8px rgba(0,0,0,.25)}
-.window{position:fixed;bottom:4.5rem;right:1rem;width:360px;height:500px;background:rgba(0,0,0,.35);backdrop-filter:blur(8px);border-radius:1rem;display:flex;flex-direction:column;box-shadow:0 8px 24px rgba(0,0,0,.35)}
-.viewport{height:7rem;overflow:hidden;position:relative;margin:.75rem}
-.messageWrapper{position:absolute;width:100%;display:flex;flex-direction:column;gap:.5rem}
-.message{background:rgba(255,255,255,.9);padding:.5rem .75rem;border-radius:.75rem;align-self:flex-start;transition:transform .25s ease,opacity .25s ease}
-.user{background:#3c52a5;color:#fff;align-self:flex-end}
-.inputBar{display:flex;padding:.5rem .75rem .75rem .75rem;gap:.5rem;margin-top:auto;background:rgba(0,0,0,.35);backdrop-filter:blur(8px);border-bottom-left-radius:1rem;border-bottom-right-radius:1rem}
-.inputBar input{flex:1;border:none;border-radius:.5rem;padding:.5rem}
-.inputBar button{border:none;border-radius:.5rem;background:#f8c802;padding:0 1rem;cursor:pointer}
-.msg-enter{opacity:0;transform:translateY(-10px) scale(.8)}
-.msg-enter-active{opacity:1;transform:translateY(0) scale(1);transition:all .25s ease}
-.msg-exit{opacity:1;transform:translateY(0) scale(1)}
-.msg-exit-active{opacity:0;transform:translateY(10px) scale(.8);transition:all .25s ease}
+.window {
+    position: fixed;
+    bottom: 4.5rem;
+    right: 1rem;
+    width: 360px;
+    height: 500px;
+    background: rgba(0, 0, 0, .35);
+    backdrop-filter: blur(8px);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, .35)
+}
+
+.viewport {
+    height: 7rem;
+    overflow: hidden;
+    position: relative;
+    margin: .75rem
+}
+
+.messageWrapper {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem
+}
+
+.message {
+    background: rgba(255, 255, 255, .9);
+    padding: .5rem .75rem;
+    border-radius: .75rem;
+    align-self: flex-start;
+    transition: transform .25s ease, opacity .25s ease
+}
+
+.user {
+    background: #3c52a5;
+    color: #fff;
+    align-self: flex-end
+}
+
+.inputBar {
+    display: flex;
+    padding: .5rem .75rem .75rem .75rem;
+    gap: .5rem;
+    margin-top: auto;
+    background: rgba(0, 0, 0, .35);
+    backdrop-filter: blur(8px);
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem
+}
+
+.inputBar input {
+    flex: 1;
+    border: none;
+    border-radius: .5rem;
+    padding: .5rem
+}
+
+.inputBar button {
+    border: none;
+    border-radius: .5rem;
+    background: #f8c802;
+    padding: 0 1rem;
+    cursor: pointer
+}
+
+.msg-enter {
+    opacity: 0;
+    transform: translateY(-10px) scale(.8)
+}
+
+.msg-enter-active {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    transition: all .25s ease
+}
+
+.msg-exit {
+    opacity: 1;
+    transform: translateY(0) scale(1)
+}
+
+.msg-exit-active {
+    opacity: 0;
+    transform: translateY(10px) scale(.8);
+    transition: all .25s ease
+}
