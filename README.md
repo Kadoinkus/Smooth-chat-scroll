@@ -16,7 +16,7 @@ A sleek, Apple-inspired chat interface prototype built with React, Vite, and Fra
 
 ## Live Demo
 
-Check out the [live demo](https://your-username.github.io/chat-prototype-v4)
+Check out the [live demo](https://kadoinkus.github.io/Smooth-chat-scroll/)
 
 ## Getting Started
 
@@ -28,27 +28,32 @@ Check out the [live demo](https://your-username.github.io/chat-prototype-v4)
 ### Installation
 
 1. Clone the repository
+
 ```bash
 git clone https://github.com/your-username/chat-prototype-v4.git
 cd chat-prototype-v4
 ```
 
 2. Install dependencies
+
 ```bash
 npm install
 ```
 
 3. Start the development server
+
 ```bash
 npm run dev
 ```
 
 4. Build for production
+
 ```bash
 npm run build
 ```
 
 5. Preview production build
+
 ```bash
 npm run preview
 ```
@@ -79,6 +84,7 @@ src/
 ## Development
 
 This project uses:
+
 - CSS Modules for scoped styling
 - Framer Motion for advanced animations
 - Vite for fast builds and development
